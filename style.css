@@ -12,3 +12,71 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+    float: left;
+    margin-left: 40%;
+}
+
+header img {
+    float: left;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+}
+
+.description{
+    background-color: lightgray;
+}
+
+.description,.relationship{
+    padding: 130px 100px 50px 100px;
+}
+
+.description  img{
+    float: left;
+    width: 400px;
+    height: 460px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.description-p2{
+    clear: both;
+}
+
+.relationship img{
+    float: right;
+    padding-left: 20px;
+}
+footer{
+    background-color: gray;
+    clear: both;
+    height: 130px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 50px;
+    line-height:130px;
+}
